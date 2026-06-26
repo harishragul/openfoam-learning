@@ -51,12 +51,12 @@
 
 ### Module 04: Boundary Conditions
 
-- [ ] Lesson 4.1 — BC fundamentals: Dirichlet, Neumann, Robin
+- [x] Lesson 4.1 — BC fundamentals: Dirichlet, Neumann, Robin
 - [ ] Lesson 4.2 — Velocity inlet/outlet conditions
 - [ ] Lesson 4.3 — Pressure boundary conditions
 - [ ] Lesson 4.4 — Wall conditions: no-slip, slip, moving walls
 - [ ] Lesson 4.5 — Cyclic/periodic and symmetry patches
-- [ ] Exercise 4A — Set up a fully-developed pipe inlet profile
+- [x] Exercise 4A — BCs for pipeflow (forced convection), windtunnel (external aero + car body), heatedroom (natural convection: vent + radiator, T-driven buoyancy)
 - [ ] Exercise 4B — Apply a parabolic velocity inlet (groovyBC / codedFixedValue)
 
 ### Module 05: Solvers
