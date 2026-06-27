@@ -20,20 +20,10 @@ internalField   uniform 0;
 
 boundaryField
 {
-    vent
+    inlet
     {
-        type    prghPressure;
-        value   uniform 0;
-    }
-    walls
-    {
-        type    fixedFluxPressure;
-        value   uniform 0;
-    }
-    radiator
-    {
-        type    fixedFluxPressure;
-        value   uniform 0;
+        type    totalPressure;
+        p0      uniform 50;
     }
 }
 
