@@ -52,12 +52,14 @@
 ### Module 04: Boundary Conditions
 
 - [x] Lesson 4.1 — BC fundamentals: Dirichlet, Neumann, Robin
-- [ ] Lesson 4.2 — Velocity inlet/outlet conditions
+- [x] Lesson 4.2 — Velocity inlet/outlet conditions (codedFixedValue, flowRateInletVelocity, pressureInletOutletVelocity)
 - [ ] Lesson 4.3 — Pressure boundary conditions
 - [ ] Lesson 4.4 — Wall conditions: no-slip, slip, moving walls
 - [ ] Lesson 4.5 — Cyclic/periodic and symmetry patches
+- [ ] Lesson 4.6 — Turbulent BCs (k, epsilon, omega) — renumbered from misfiled 4.2
 - [x] Exercise 4A — BCs for pipeflow (forced convection), windtunnel (external aero + car body), heatedroom (natural convection: vent + radiator, T-driven buoyancy)
-- [ ] Exercise 4B — Apply a parabolic velocity inlet (groovyBC / codedFixedValue)
+- [x] Exercise 4B — Parabolic velocity inlet via codedFixedValue (caught Umax=2x vs 1.5x Umean error: circular pipe vs 2D channel)
+- [ ] Exercise 4C — Turbulent k/omega BCs for pipe flow (renumbered, was mislabeled 4B)
 
 ### Module 05: Solvers
 

@@ -1,4 +1,4 @@
-# Lesson 4.2 — Turbulent Boundary Conditions (k, epsilon, omega)
+# Lesson 4.6 — Turbulent Boundary Conditions (k, epsilon, omega)
 
 ## Concept
 
@@ -136,7 +136,7 @@ For **resolved walls** (fine mesh, y+ ≈ 1): use `kLowReWallFunction`, `omegaWa
 
 ---
 
-## Exercise 4B
+## Exercise 4C
 
 Set up turbulent BCs for a pipe flow:
 - Diameter: 0.05 m, bulk velocity: 5 m/s, ν = 1.5e-5 m²/s (air)
