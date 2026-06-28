@@ -61,7 +61,7 @@
 - [x] Exercise 4B — Parabolic velocity inlet via codedFixedValue (caught Umax=2x vs 1.5x Umean error: circular pipe vs 2D channel)
 - [x] Exercise 4C — Pressure BC selection: centrifugal-fan (totalPressure), compressible-nozzle (waveTransmissive), heatedroom walls (fixedFluxPressure)
 - [x] Exercise 4D — Turbulent k/omega BCs for pipe flow (k=0.09375, omega=159.719, hand-verified correct)
-- [ ] Exercise 4E — Wall condition selection: pipe wall, far-field domain edge, rotating drum, symmetry plane
+- [x] Exercise 4E — Wall condition selection: pipe wall (noSlip), far-field (freeSlip), rotating drum (rotatingWallVelocity, omega=2π rad/s), symmetry plane (not noSlip — no real surface, gap repaired with paper-fold analogy)
 
 ### Module 05: Solvers
 
