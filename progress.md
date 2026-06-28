@@ -54,13 +54,14 @@
 - [x] Lesson 4.1 — BC fundamentals: Dirichlet, Neumann, Robin
 - [x] Lesson 4.2 — Velocity inlet/outlet conditions (codedFixedValue, flowRateInletVelocity, pressureInletOutletVelocity)
 - [x] Lesson 4.3 — Pressure boundary conditions (totalPressure, prghPressure, fixedFluxPressure)
-- [ ] Lesson 4.4 — Wall conditions: no-slip, slip, moving walls
-- [ ] Lesson 4.5 — Cyclic/periodic and symmetry patches
-- [ ] Lesson 4.6 — Turbulent BCs (k, epsilon, omega) — renumbered from misfiled 4.2
+- [x] Lesson 4.4 — Wall conditions: no-slip, slip, moving walls (movingWallVelocity vs rotatingWallVelocity)
+- [x] Lesson 4.5 — Cyclic/periodic and symmetry patches (cyclic, cyclicAMI, wedge)
+- [x] Lesson 4.6 — Turbulent BCs (k, epsilon, omega) — renumbered from misfiled 4.2
 - [x] Exercise 4A — BCs for pipeflow (forced convection), windtunnel (external aero + car body), heatedroom (natural convection: vent + radiator, T-driven buoyancy)
 - [x] Exercise 4B — Parabolic velocity inlet via codedFixedValue (caught Umax=2x vs 1.5x Umean error: circular pipe vs 2D channel)
 - [x] Exercise 4C — Pressure BC selection: centrifugal-fan (totalPressure), compressible-nozzle (waveTransmissive), heatedroom walls (fixedFluxPressure)
 - [ ] Exercise 4D — Turbulent k/omega BCs for pipe flow (renumbered, was mislabeled 4B then 4C)
+- [ ] Exercise 4E — Wall condition selection: pipe wall, far-field domain edge, rotating drum, symmetry plane
 
 ### Module 05: Solvers
 

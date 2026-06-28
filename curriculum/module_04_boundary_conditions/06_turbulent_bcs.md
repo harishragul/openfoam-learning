@@ -136,7 +136,7 @@ For **resolved walls** (fine mesh, y+ ≈ 1): use `kLowReWallFunction`, `omegaWa
 
 ---
 
-## Exercise 4C
+## Exercise 4D
 
 Set up turbulent BCs for a pipe flow:
 - Diameter: 0.05 m, bulk velocity: 5 m/s, ν = 1.5e-5 m²/s (air)
